@@ -1,5 +1,5 @@
 {
-  "name": "github-package-release",
+  "name": "@tyankatsu0105/github-package-release",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,11 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyankatsu0105/github-package-release.git"
+    "url": "git://github.com/tyankatsu0105/github-package-release.git"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tyankatsu0105/github-package-release/issues"
   },
-  "homepage": "https://github.com/tyankatsu0105/github-package-release#readme"
+  "homepage": "https://github.com/tyankatsu0105/github-package-release#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
